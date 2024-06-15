@@ -1,7 +1,5 @@
-void main(List<String> args) {
-  
+void main(List<String> args) async{
+    print(await getUserName());
 }
 
-Future<String> getUserName()async{
-  return "Dinod Tharinda";
-}
+Future<String> getUserName()async => 'Dinod Tharinda';
